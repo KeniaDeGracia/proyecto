@@ -67,7 +67,7 @@ BARRA DEL NAVEGADOR
 	text-align: center;
 	padding: 12px 12px;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 1.2vw;
 	border-radius: 12px;
   }
   
@@ -88,9 +88,9 @@ BARRA DEL NAVEGADOR
 	float: right;
 	padding: 6px;
 	border:black;
-	margin-top: 8px;
+	margin-top: 6px;
 	margin-right: 16px;
-	font-size: 17px;
+	font-size: 1.2vw;
   }
   
   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
@@ -284,7 +284,7 @@ Ver mas
 	background:#FFAF36;
 	border-radius:10px;
 	text-align: center;
-	font-size: 30px;
+	font-size: 2vw;
 	color:#000;
 	cursor:pointer;
 	font-weight: bold;
@@ -303,7 +303,7 @@ Ver mas
 	background:#FF7A00;
 	border-radius:10px;
 	text-align: center;
-	font-size: 30px;
+	font-size: 2vw;
 	color:black;
 	cursor:pointer;
 	border: 3px;
@@ -319,7 +319,7 @@ Ver mas
 	background:black;
 	border-radius:10px;
 	text-align: center;
-	font-size: 30px;
+	font-size: 2vw;
 	color:white;
 	cursor:pointer;
 	border: 2px solid black;
@@ -333,7 +333,7 @@ TEXTO
 	position:absolute;
 	top:46%;
 	left:5%;
-	font-size: 35px;
+	font-size: 2.5vw;
 	font-family: "Boogaloo", sans-serif;
 	color: black;
 }
@@ -342,7 +342,7 @@ TEXTO
 	width:25%;
 	top:165%;
 	left:12%;
-	font-size: 30px;
+	font-size: 2vw;
 	font-family: "Boogaloo", sans-serif;
 }
 #textoaprende2{
@@ -350,7 +350,7 @@ TEXTO
 	width:25%;
 	top:165%;
 	left:63%;
-	font-size: 30px;
+	font-size: 2vw;
 	font-family: "Boogaloo", sans-serif;
 }
 #textometodos{
@@ -359,7 +359,7 @@ TEXTO
 	left:20%;
 
 	width:65%;
-	font-size: 30px;
+	font-size: 2vw;
 	font-family: "Boogaloo", sans-serif;
 	color: white;
 	font-weight:  lighter;
@@ -370,7 +370,7 @@ TEXTO
 	width:90%;
 	left:5%;
 
-	font-size: 30px;
+	font-size: 2vw;
 	font-family: "Boogaloo", sans-serif;
 	color: black;
 	font-weight: none;
@@ -380,7 +380,7 @@ TEXTO
 	top:165%;
 	width:80%;
 	left:11%;
-	font-size: 30px;
+	font-size: 2vw;
 	font-family: "Boogaloo", sans-serif;
 	color: black;
 	font-weight: none;
@@ -390,7 +390,7 @@ TEXTO
 	top:415%;
 	left:30%;
 	width: 63%;
-	font-size: 24px;
+	font-size: 1.8vw;
 	font-family: "Boogaloo", sans-serif;
 	color: white;
 	font-weight: none;
@@ -401,7 +401,7 @@ TEXTO
 	left:21.5%;
 	width: 63%;
 
-	font-size: 24px;
+	font-size: 1.8vw;
 	font-family: "Boogaloo", sans-serif;
 	color: white;
 	font-weight: none;
@@ -411,7 +411,7 @@ TEXTO
 	top:529%;
 	left:30%;
 	width: 63%;
-	font-size: 24px;
+	font-size: 1.8vw;
 	font-family: "Boogaloo", sans-serif;
 	color: white;
 	font-weight: none;
@@ -421,7 +421,7 @@ TEXTO
 	top:572.5%;
 	left:21.5%;
 	width: 65%;
-	font-size: 24px;
+	font-size: 1.8vw;
 	font-family: "Boogaloo", sans-serif;
 	color: white;
 	font-weight: none;
@@ -429,7 +429,7 @@ TEXTO
 #textovideo{
 	position:absolute;
 	top:150%;
-	font-size: 30px;
+	font-size: 1.8vw;
 	font-family: "Boogaloo", sans-serif;
 }
 #jugar a{
@@ -472,7 +472,7 @@ TEXTO
 	background:#9bd6f6;
 	text-decoration: none;
 	color: #FFFFFF;
-	font-size: 50px;
+	font-size: 3vw;
 	font-family: "Boogaloo", sans-serif;
 	border-radius: 67px;
 	text-decoration-color: none;
@@ -487,7 +487,7 @@ TEXTO
 	background:#9bd6f6;
 	text-decoration: none;
 	color: #FFFFFF;
-	font-size: 50px;
+	font-size: 3vw;
 	font-family: "Boogaloo", sans-serif;
 	border-radius: 67px;
 	text-decoration-color: none;
@@ -498,7 +498,7 @@ TEXTO
 	top:457%;
 	left:19%;
 	width:30%;
-	font-size: 20px;
+	font-size: 1.5vw;
 	font-family: "Boogaloo", sans-serif;
 	color: white;
 }
@@ -507,7 +507,7 @@ TEXTO
 	top:453%;
 	left:53%;
 	width:25%;
-	font-size: 20px;
+	font-size: 1.5vw;
 	font-family: "Boogaloo", sans-serif;
 	color: white;
 
@@ -533,7 +533,7 @@ FORMULARIO
 	position:relative;
 	width:100%;
 	padding:10px;
-	font-size: 20px;
+	font-size: 1.5vw;
 }
 #formulario label span.obligatorio{
 	opacity: 0;
