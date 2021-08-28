@@ -1,0 +1,916 @@
+/*=============================================
+GLOBAL
+=============================================*/
+
+*{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	text-decoration: none;
+	/*font-family: sans-serif;*/
+	box-sizing: border-box;
+}
+.row{
+	position:relative;
+	margin:auto;
+	width:100%;
+	height: auto;
+	clear:both;
+	display:table;
+}
+
+[class*="col-"]{
+	float:left;
+	/*border:1px solid black;*/
+	padding:10px;
+}
+/*=============================================
+CABEZOTE
+=============================================*/
+
+header #logotipo{
+	text-align: center;
+	padding:15px;
+}
+body {
+	font-family: "Boogaloo", sans-serif;
+}
+header #btnMovil span{
+	width:40px;
+	height:40px;
+	text-align: center;
+	padding:10px 0;
+	margin:10px;
+	background:silver;
+	cursor: pointer;
+}
+/*=============================================
+BARRA DEL NAVEGADOR
+=============================================*/
+/* Add a black background color to the top navigation bar */
+.topnav {
+	margin: 24px;
+	overflow: hidden;
+	background-color: rgb(235, 235, 235);
+	font-weight: bold;
+	/*background-color: #e9e9e9;*/
+	font-family: sans-serif;
+	border-radius: 12px;
+
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+	float: left;
+	display: block;
+	color: #3F7181;
+	text-align: center;
+	padding: 12px 12px;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 12px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+	background-color: #3F7181;
+	color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+	float: right;
+	padding: 6px;
+	border:black;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+	.topnav a, .topnav input[type=text] {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	  width: 100%;
+	  margin: 0%;
+	  padding: 18px;
+	}
+	.topnav input[type=text] {
+	  border: 1px solid #ccc;
+	}
+  }
+
+  /*=============================================
+IMAGENES
+=============================================*/
+#slide{
+	position: absolute;
+  	top: -10%;
+	left: 0%;
+	z-index: -3;
+}
+#slide2{
+	position: absolute;
+  	top: 18%;
+	right: 0%;
+	z-index: -3;
+}
+#slide3{
+	position: absolute;
+  	top: 118%;
+	right:0%;
+  	width: 100%;
+	z-index: -2;
+}
+#slide4{
+	position: absolute;
+	width: 100%;
+  	top: 10%;
+	left: 0px;
+	right: 40px;
+}
+#slide5{
+	position: absolute;
+  	top: 120%;
+  	left:-0.5%;
+  	
+}
+#slide6{
+	position: absolute;
+  	top: 270%;
+	width: 90%;
+	left:5%;
+}
+#slide7{
+	position: absolute;
+	width: 100%;
+  	top: 420%;
+	left:0%;
+}
+#slide8{
+	position: absolute;
+	width: 100%;
+  	top: 18%;
+	left:0px;
+}
+#slide9{
+	position: absolute;
+  	top: 125%;
+	left:0%;
+}
+#slide10{
+	position: absolute;
+  	top: 205%;
+	left: 0%;
+}
+#slide11{
+	position: absolute;
+	top: 335%;
+  	width: 100%;
+}
+#slide12{
+	position: absolute;
+  	top: 415%;
+	left: 19px;
+}
+#slide13{
+	position: absolute;
+  	top: 18%;
+	z-index: -3;
+}
+#slide14{
+	position: absolute;
+  	top: 120%;
+	z-index: 1;
+}
+#slide17{
+	position: absolute;
+  	top: 270%;
+  	width: 100%;
+	z-index: -3;
+}
+#slide18{
+	position: absolute;
+  	top: 414%;
+	right:2px;
+}
+#slide19{
+	position: absolute;
+  	top: 520%;
+  	right:2px;
+}
+#slide20{
+	position: absolute;
+  	top: 18%;
+	left:-10px;
+	z-index: 0;
+}
+#slide21{
+	position: absolute;
+	top: 1290px;
+
+}
+#aplafa{
+	position: absolute;
+	top: 280%;
+  	left:3%;
+}
+#probidsida{
+	position: absolute;
+  	top: 275%;
+  	left:40%;
+}
+#who{
+	position: absolute;
+  	top: 276%;
+  	left:65%;
+}
+
+#w{
+	position: absolute;
+  	top: 2300px;
+	left: 15%;
+	z-index: 5;
+}
+#f{
+	position: absolute;
+	top: 2300px;
+	left:31%;
+	z-index: 5;
+}
+#i{
+	position: absolute;
+	top:2300px;
+	left:52%;
+	z-index: 5;
+}
+#t{
+	position: absolute;
+	top:2300px;
+	left:73%;
+	z-index: 5;
+}
+#correo{
+	position: absolute;
+	align-items: center;
+	top: 2680px;
+	left: 39%;
+	z-index: 1;
+	font-size: 50px;
+}
+
+
+/*=============================================
+Ver mas
+=============================================*/
+#vermas2 a{
+	position:absolute;
+	top:215%;
+	left: 19%;
+
+	padding-top: 10px;
+
+	width:11%;
+	height: 9%;
+
+	background:#FFAF36;
+	border-radius:10px;
+	text-align: center;
+	font-size: 30px;
+	color:#000;
+	cursor:pointer;
+	font-weight: bold;
+	font-family: 'Boogaloo', sans-serif;
+}
+#vermas3 a{
+	position:absolute;
+	top:215%;
+	left: 70.5%;
+
+	padding-top: 10px;
+
+	width:11%;
+	height: 9%;
+
+	background:#FF7A00;
+	border-radius:10px;
+	text-align: center;
+	font-size: 30px;
+	color:black;
+	cursor:pointer;
+	border: 3px;
+	font-weight: bold;
+}
+#vermas4 a{
+	position:absolute;
+	top: 410%;
+	left: 45%;
+	padding-top: 10px;
+	width:11%;
+	height: 9%;
+	background:black;
+	border-radius:10px;
+	text-align: center;
+	font-size: 30px;
+	color:white;
+	cursor:pointer;
+	border: 2px solid black;
+	text-decoration: none;
+}
+
+/*=============================================
+TEXTO
+=============================================*/
+#textoinicio{
+	position:absolute;
+	top:46%;
+	left:5%;
+	font-size: 35px;
+	font-family: "Boogaloo", sans-serif;
+	color: black;
+}
+#textoaprende{
+	position:absolute;
+	width:25%;
+	top:165%;
+	left:12%;
+	font-size: 30px;
+	font-family: "Boogaloo", sans-serif;
+}
+#textoaprende2{
+	position:absolute;
+	width:25%;
+	top:165%;
+	left:63%;
+	font-size: 30px;
+	font-family: "Boogaloo", sans-serif;
+}
+#textometodos{
+	position:absolute;
+	top:129%;
+	left:20%;
+
+	width:65%;
+	font-size: 30px;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+	font-weight:  lighter;
+}
+#textometodos2{
+	position:absolute;
+	top:175%;
+	width:90%;
+	left:5%;
+
+	font-size: 30px;
+	font-family: "Boogaloo", sans-serif;
+	color: black;
+	font-weight: none;
+}
+#textoenfermedades{
+	position:absolute;
+	top:165%;
+	width:80%;
+	left:11%;
+	font-size: 30px;
+	font-family: "Boogaloo", sans-serif;
+	color: black;
+	font-weight: none;
+}
+#textoets{
+	position:absolute;
+	top:415%;
+	left:30%;
+	width: 63%;
+	font-size: 24px;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+	font-weight: none;
+}
+#textoets2{
+	position:absolute;
+	top:468%;
+	left:21.5%;
+	width: 63%;
+
+	font-size: 24px;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+	font-weight: none;
+}
+#textoets3{
+	position:absolute;
+	top:529%;
+	left:30%;
+	width: 63%;
+	font-size: 24px;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+	font-weight: none;
+}
+#textoets4{
+	position:absolute;
+	top:572.5%;
+	left:21.5%;
+	width: 65%;
+	font-size: 24px;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+	font-weight: none;
+}
+#textovideo{
+	position:absolute;
+	top:150%;
+	font-size: 30px;
+	font-family: "Boogaloo", sans-serif;
+}
+#jugar a{
+	position:absolute;
+	width: 464px;
+	height:110;
+	top:2060px;
+	left: 48%;
+	background:#FF5C00;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 85px;
+	font-family: "Boogaloo", sans-serif;
+	border-radius: 67px;
+	text-decoration-color: none;
+	
+}
+#jugar2 a{
+	position:absolute;
+	width: 464px;
+	height:110;
+	top:3780px;
+	left: 12%;
+	background:#FF5C00;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 85px;
+	font-family: "Boogaloo", sans-serif;
+	border-radius: 67px;
+	text-decoration-color: none;
+	
+}
+#pdf a{
+	z-index: 1;
+	position:absolute;
+	width: 240px;
+	height:60px;
+	top:3050px;
+	left: 25%;
+	background:#9bd6f6;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 50px;
+	font-family: "Boogaloo", sans-serif;
+	border-radius: 67px;
+	text-decoration-color: none;
+	
+}#pdf2 a{
+	z-index: 1;
+	position:absolute;
+	width: 240px;
+	height:60px;
+	top:3050px;
+	left: 57%;
+	background:#9bd6f6;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 50px;
+	font-family: "Boogaloo", sans-serif;
+	border-radius: 67px;
+	text-decoration-color: none;
+	
+}
+#textopdf{
+	position:absolute;
+	top:457%;
+	left:19%;
+	width:30%;
+	font-size: 20px;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+}
+#textopdf2{
+	position:absolute;
+	top:453%;
+	left:53%;
+	width:25%;
+	font-size: 20px;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+
+}
+/*=============================================
+FORMULARIO
+=============================================*/
+
+
+#formulario {
+	position: absolute;
+	margin:auto;
+	top:30%;
+	left:55%;
+	width:40%;
+	height:auto;
+	padding: 2%;
+	background:#ddd;
+}
+
+#formulario input, #formulario label, #formulario textarea{
+	display:block;
+	position:relative;
+	width:100%;
+	padding:10px;
+	font-size: 20px;
+}
+#formulario label span.obligatorio{
+	opacity: 0;
+	color:#777;
+}
+
+
+
+
+
+/*=============================================
+PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc 1200 x 640
+=============================================*/
+
+@media(min-width:1200px){
+
+	.col-lg-12{width:100%;}
+	.col-lg-11{width:91.66666667%;}
+	.col-lg-10{width:83.33333333%;}
+	.col-lg-9{width:75%;}
+	.col-lg-8{width:66.66666667%;}
+	.col-lg-7{width:58.33333333%;}
+	.col-lg-6{width:50%;}
+	.col-lg-5{width:41.66666667%;}
+	.col-lg-4{width: 33.33333333%;}
+	.col-lg-3{width: 25%;}
+	.col-lg-2 {width: 16.66666667%;}
+	.col-lg-1 {width: 8.33333333%;}
+	.col-lg-0 {display:none;}
+	/*CABEZOTE*/
+	
+	header nav ul li a{
+		margin:30% 5px;
+		font-size:20px;
+	}
+	header #logotipo img{
+		margin:5% 5px;
+	}
+}
+
+/*=============================================
+PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 1024px
+1024 x 640
+=============================================*/
+
+@media(max-width:1199px) and (min-width:992px){
+
+	.col-md-12{width:100%;}
+	.col-md-11{width:91.66666667%;}
+	.col-md-10{width:83.33333333%;}
+	.col-md-9{width:75%;}
+	.col-md-8{width:66.66666667%;}
+	.col-md-7{width:58.33333333%;}
+	.col-md-6{width:50%;}
+	.col-md-5{width:41.66666667%;}
+	.col-md-4{width: 33.33333333%;}
+	.col-md-3{width: 25%;}
+	.col-md-2{width: 16.66666667%;}
+	.col-md-1{width: 8.33333333%;}
+	.col-md-0 {display:none;}
+
+	header #logotipo img{
+		margin:6%;
+	}
+	.topnav {
+		margin: 5px;
+	}
+	#textoinicio{
+		top: 35%;
+		width: 35%;
+	}
+}
+
+/*=============================================
+PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
+960 x 540
+=============================================*/
+
+@media(max-width:991px) and (min-width:768px){
+
+	.col-sm-12{width:100%;}
+	.col-sm-11{width:91.66666667%;}
+	.col-sm-10{width:83.33333333%;}
+	.col-sm-9{width:75%;}
+	.col-sm-8{width:66.66666667%;}
+	.col-sm-7{width:58.33333333%;}
+	.col-sm-6{width:50%;}
+	.col-sm-5{width:41.66666667%;}
+	.col-sm-4{width: 33.33333333%;}
+	.col-sm-3{width: 25%;}
+	.col-sm-2{width: 16.66666667%;}
+	.col-sm-1{width: 8.33333333%;}
+	.col-sm-0 {display:none;}
+
+}
+
+/*=============================================
+PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o vertical 320px
+320x569
+=============================================*/
+
+@media(max-width:767px){
+
+	.col-xs-12{width:100%;}
+	.col-xs-11{width:91.66666667%;}
+	.col-xs-10{width:83.33333333%;}
+	.col-xs-9{width:75%;}
+	.col-xs-8{width:66.66666667%;}
+	.col-xs-7{width:58.33333333%;}
+	.col-xs-6{width:50%;}
+	.col-xs-5{width:41.66666667%;}
+	.col-xs-4{width: 33.33333333%;}
+	.col-xs-3{width: 25%;}
+	.col-xs-2{width: 16.66666667%;}
+	.col-xs-1{width: 8.33333333%;}
+	.col-xs-0 {display:none;}
+	/*=============================================
+	INICIO
+	=============================================*/
+	header #logotipo{
+		padding:20px;
+	}
+	#slide{
+		top: 20%;
+		width:105%;
+	}
+	#textoinicio{
+		top:35%;
+		width:35%;
+		font-size: 10px;
+		z-index:-1;
+	}
+	.topnav{
+		margin: -30px 0px;
+	}
+	/*=============================================
+	APRENDE
+	=============================================*/
+	#slide3{
+		top: 42%;
+	}
+	#textoaprende{
+		top:52%;
+		left:12%;
+		font-size: 8px;
+		z-index:-1;
+	}
+	#textoaprende2{
+		top:52%;
+		left:63%;
+		font-size: 8px;
+		z-index:-1;
+	}
+	#vermas2 a{
+		top:68%;
+		font-size: 8px;
+		height:20px;
+		width: 40px;
+		z-index:-1;
+		padding-top: none;
+		padding: 5px;
+	}
+	#vermas3 a{
+		top:68%;
+		font-size: 8px;
+		height:20px;
+		width: 40px;
+		z-index:-1;
+		padding-top: none;
+		padding: 5px;
+	}
+	/*=============================================
+	METODOS
+	=============================================*/
+	#slide4{
+		z-index:-1;
+		top: 25%;
+	}
+	#slide5{
+		z-index:-1;
+		top: 50%;
+	}
+	#textometodos{
+		top:51.5%;
+		width:75%;
+		font-size: 10px;
+		font-weight: none;
+		z-index:-1;
+	}
+	#textometodos2{
+		top:63%;
+		font-size: 10px;
+		z-index:-1;
+	}
+	#slide6{
+		top:100%;
+	}
+	#slide7{
+		top:150%;
+	}
+	#vermas4 a{
+		top:140%;
+		font-size: 10px;
+		height:30px;
+		width: 50px;
+		padding: 5px;
+		padding-top: 8px;
+		left: 42.5%;
+	}
+	/*=============================================
+	ENFERMEDADES
+	=============================================*/
+	#slide8{
+		top:25%;
+		z-index:-1;
+	}
+	#slide9{
+		top:53%;
+		z-index:-1;
+	}
+	#textoenfermedades{
+		top:63%;
+		font-size: 10px
+	}
+	#slide10{
+		top:85%;
+		width: 80%;
+		margin: 10%;
+	}
+	#slide11{
+		top:120%;
+	}
+	#slide12{
+		top:150%;
+	}
+	#textoets{
+		top:150%;
+		left:35%;
+		width: 63%;
+		font-size: 6px;
+		color: white;
+	}
+	#textoets2{
+		top:164%;
+		left:25.5%;
+		width: 63%;
+	
+		font-size: 6px;
+		color:white;
+	}
+	#textoets3{
+		top:181%;
+		left:35%;
+		width: 63%;
+		font-size: 6px;
+		color: white;
+	}
+	#textoets4{
+		top:193%;
+		left:25.5%;
+		width: 63%;
+	
+		font-size: 6px;
+		color:white;
+	}
+	/*=============================================
+	RECURSOS
+	=============================================*/
+	#slide13{
+		top:25%;
+	}
+	#slide14{
+		top:53%;
+		z-index:-1;
+	}
+	#textovideo{
+		top:65%;
+		width: 80%;
+		font-size:12px;
+		left: 10%;
+		z-index: -1;
+	}
+	#slide17{
+		top:100%;
+	}
+	#jugar a{
+		width: 120px;
+		height:30;
+		top:500px;
+		left: 48%;
+		font-size: 30px;
+		font-family: "Boogaloo", sans-serif;
+		border-radius: 67px;
+		text-decoration-color: none;
+	}
+	#jugar2 a{
+		width: 120px;
+		height:30;
+		top:980px;
+		left: 15%;
+		font-size: 30px;
+		font-family: "Boogaloo", sans-serif;
+		border-radius: 67px;
+		text-decoration-color: none;
+	}
+	#slide18{
+		top:140%;
+	}
+	#pdf a{
+		width: 70px;
+		height:20px;
+		top:733px;
+		left: 22.5%;
+		font-size: 15px;
+		
+	}#pdf2 a{
+		width: 70px;
+		height:20px;
+		top:733px;
+		left: 54%;
+		font-size: 15px;
+	}
+	#textopdf{
+		top:151%;
+		left:19%;
+		width:30%;
+		font-size: 5px;
+	}
+	#textopdf2{
+		position:absolute;
+		top:150%;
+		left:53%;
+		width:25%;
+		font-size: 5px;
+	}
+	#slide19{
+		top: 180%;
+	}
+	/*=============================================
+	ATENCION
+	=============================================*/
+	#slide20{
+		width: 110%;
+		position: absolute;
+		top: 25%;
+	}
+
+
+
+	#formulario input, #formulario label, #formulario textarea{
+		padding:1px;
+		font-size: 6px;
+	}
+
+	#slide21{
+		position: relative;
+		top:410px;
+		left:0px;
+		z-index: 0;
+	}
+	#asoc-org{
+		position: fixed;
+		top:410px;
+		padding-top: 100px;
+	}
+	
+	#correo{
+		position: absolute;
+		top: 750px;
+		font-size: 25px;
+	}
+	#blanco{
+		top: 400px;
+		z-index: 0;
+		width: 50%;
+	}
+
+}
+
+
