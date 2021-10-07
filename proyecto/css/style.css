@@ -223,6 +223,23 @@ IMAGENES
   	top: 535%;
 	left: 0%;
 }
+#slide23{
+	position: absolute;
+  	top: 800%;
+	left: 0%;
+}
+#slide24{
+	position: absolute;
+	top: 860%;
+  	left: 10%;
+	width:80%
+}
+#slide25{
+	position: absolute;
+	top: 1000%;
+  	left: 10%;
+	width:80%
+}
 #aplafa{
 	position: absolute;
 	top: 280%;
@@ -441,6 +458,46 @@ TEXTO
 	color: white;
 	font-weight: none;
 }
+#textoanti6{
+	position:absolute;
+	top: 5145px;
+	left:14%;
+	width: 75%;
+	font-size: 3.6vw;
+	font-family: "Boogaloo", sans-serif;
+	color: black;
+	font-weight: none;
+}#textoanti7{
+	position:absolute;
+	top:5345px;
+	left:15%;
+	width: 75%;
+	font-size: 3.6vw;
+	font-family: "Boogaloo", sans-serif;
+	color: black;
+	font-weight: none;
+}
+#textoanti8{
+	position:absolute;
+	top:5410px;
+	left:15%;
+	width: 75%;
+	font-size: 2vw;
+	font-family: "Boogaloo", sans-serif;
+	color: black;
+	font-weight: none;
+}
+#textoanti9{
+	position:absolute;
+	top:6310px;
+	left:15%;
+	width: 75%;
+	font-size: 3.6vw;
+	font-family: "Boogaloo", sans-serif;
+	color: black;
+	font-weight: none;
+}
+
 #textoenfermedades{
 	position:absolute;
 	top:165%;
