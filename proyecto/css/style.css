@@ -100,19 +100,20 @@ IMAGENES
 =============================================*/
 #slide{
 	position: absolute;
-  	top: -10%;
+  	top: 0%;
 	left: 0%;
+	width: 100%;
 	z-index: -3;
 }
 #slide2{
 	position: absolute;
-  	top: 18%;
+  	top: 100px;
 	right: 0%;
 	z-index: -3;
 }
 #slide3{
 	position: absolute;
-  	top: 118%;
+  	top: 800px;
 	right:0%;
   	width: 100%;
 	z-index: -2;
@@ -282,7 +283,7 @@ Ver mas
 =============================================*/
 #vermas2 a{
 	position:absolute;
-	top:203%;
+	top:1400px;
 	left: 19%;
 
 	padding-top: 10px;
@@ -301,7 +302,7 @@ Ver mas
 }
 #vermas3 a{
 	position:absolute;
-	top:203%;
+	top:1400px;
 	left: 70.5%;
 
 	padding-top: 10px;
@@ -320,7 +321,7 @@ Ver mas
 }
 #vermas4 a{
 	position:absolute;
-	top: 400%;
+	top: 410%;
 	left: 45%;
 	padding-top: 10px;
 	width:11%;
@@ -340,16 +341,41 @@ TEXTO
 =============================================*/
 #textoinicio{
 	position:absolute;
-	top:48%;
+	top:130px;
+	left:12%;
+	font-size: 5vw;
+	font-family: "Boogaloo", sans-serif;
+	color: #0E7DBF;
+}
+#textoinicio2{
+	position:absolute;
+	top:190px;
+	left:12%;
+	font-size: 4vw;
+	font-family: "Boogaloo", sans-serif;
+	color: #AE4FD9;
+}
+#textoinicio3{
+	position:absolute;
+	top:135px;
+	left:7%;
+	font-size: 8vw;
+	font-family: "Boogaloo", sans-serif;
+	color: #3F68F8;
+}
+#textoinicio4{
+	position:absolute;
+	top:260px;
 	left:5%;
-	font-size: 2.5vw;
+	font-size: 2.8vw;
 	font-family: "Boogaloo", sans-serif;
 	color: black;
+	font-weight: none;
 }
 #textoaprende{
 	position:absolute;
 	width:25%;
-	top:165%;
+	top: 1100px;;
 	left:12%;
 	font-size: 2vw;
 	font-family: "Boogaloo", sans-serif;
@@ -357,7 +383,7 @@ TEXTO
 #textoaprende2{
 	position:absolute;
 	width:25%;
-	top:165%;
+	top: 1100px;
 	left:63%;
 	font-size: 2vw;
 	font-family: "Boogaloo", sans-serif;
@@ -447,7 +473,7 @@ TEXTO
 }
 #textoanti6{
 	position:absolute;
-	top: 5145px;
+	top: 5135px;
 	left:14%;
 	width: 75%;
 	font-size: 3.6vw;
@@ -489,7 +515,7 @@ TEXTO
 	top:5950px;
 	left:12%;
 	width: 30%;
-	font-size: 2vw;
+	font-size: 1.8vw;
 	font-family: "Boogaloo", sans-serif;
 	color: white;
 	font-weight: none;
@@ -499,7 +525,7 @@ TEXTO
 	top:5950px;
 	left:58%;
 	width: 30%;
-	font-size: 2vw;
+	font-size: 1.8vw;
 	font-family: "Boogaloo", sans-serif;
 	color: white;
 	font-weight: none;
@@ -780,7 +806,42 @@ PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc 1200 x 6
 	header #logotipo img{
 		margin:5% 5px;
 	}
-		
+	#vermas2 a{
+		top: 1380px;
+	}
+	#vermas3 a{
+		top: 1380px;
+	}
+	#textoanti2{
+		top:595%;
+	}
+	#textoanti3{
+		top:640%;
+	}
+	#textoanti4{
+		top:698%;
+	}
+	#textoanti5{
+		top:752%;
+	}	
+	#textoanti6{
+		top:4435px;
+	}	
+	#textoanti7{
+		top:4650px;
+	}	
+	#textoanti8{
+		top:4700px;
+	}
+	#textoanti9{
+		top:5480px;
+	}
+	#textoanti10{
+		top:5150px;
+	}	
+	#textoanti11{
+		top:5150px;
+	}
 }
 
 /*=============================================
@@ -811,8 +872,36 @@ PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 10
 		margin: 5px;
 	}
 	#textoinicio{
-		top: 35%;
-		width: 35%;
+		top: 120px;
+	}
+	#textoinicio2{
+		top: 170px;
+	}
+	#textoinicio3{
+		top: 120px;
+		left: 6%;
+	}
+	#textoinicio4{
+		top: 230px;
+		width: 33%;
+	}
+	#slide3{
+		top: 630px
+	}
+	#textoaprende{
+		top: 870px;
+	}
+	#textoaprende2{
+		top: 870px;
+	}
+	#vermas2 a{
+		top:1100px;
+	}
+	#vermas3 a{
+		top:1100px;
+	}
+	#vermas4 a{
+		top: 400%;
 	}
 	#textoets2{
 		top: 460%;
@@ -845,6 +934,31 @@ PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
 	.col-sm-2{width: 16.66666667%;}
 	.col-sm-1{width: 8.33333333%;}
 	.col-sm-0 {display:none;}
+
+	.topnav a {	
+		font-size: 1.3vw;
+	}
+	#textoinicio2{
+		top:170px;
+	}	
+	#textoinicio4{
+		top: 200px;
+	}
+	#slide3{
+		top: 450px;
+	}
+	#textoaprende{
+		top: 620px;
+	}
+	#textoaprende2{
+		top: 620px;
+	}
+	#vermas2 a{
+		top:800px;
+	}
+	#vermas3 a{
+		top:800px;
+	}
 
 }
 
@@ -883,15 +997,34 @@ PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o ve
 		padding:20px;
 	}
 	#slide{
-		top: 20%;
-		width:105%;
+		top: 20px;
 	}
 	#textoinicio{
-		top:35%;
-		width:35%;
-		font-size: 10px;
+		top:380px;
+		z-index:-1;
+		font-size: 8vw;
+		left: 20%;
+	}
+	#textoinicio2{
+		top:430px;
+		font-size: 8vw;
+		left: 20%;
 		z-index:-1;
 	}
+	#textoinicio3{
+		top:380px;
+		font-size: 14vw;
+		left: 10%;
+		z-index:-1;
+	}
+	#textoinicio4{
+		top:480px;
+		left: 8%;
+		font-size: 5vw;
+		text-align: justify;
+		z-index:-1;
+	}
+	
 	.topnav{
 		margin: -30px 0px;
 	}
@@ -899,22 +1032,23 @@ PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o ve
 	APRENDE
 	=============================================*/
 	#slide3{
-		top: 42%;
+		top: 250px;
 	}
 	#textoaprende{
-		top:52%;
-		left:12%;
-		font-size: 8px;
+		top:320px;
+		left:44px;
+		font-size: 6px;
 		z-index:-1;
 	}
 	#textoaprende2{
-		top:52%;
-		left:63%;
-		font-size: 8px;
+		top:320px;
+		left:195px;
+		font-size: 6px;
 		z-index:-1;
 	}
 	#vermas2 a{
-		top:68%;
+		top:400px;
+		left:63px;
 		font-size: 8px;
 		height:20px;
 		width: 40px;
@@ -923,7 +1057,8 @@ PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o ve
 		padding: 5px;
 	}
 	#vermas3 a{
-		top:68%;
+		top:400px;
+		left:215px;
 		font-size: 8px;
 		height:20px;
 		width: 40px;
