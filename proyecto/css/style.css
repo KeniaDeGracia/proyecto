@@ -18,7 +18,6 @@ GLOBAL
 	clear:both;
 	display:table;
 }
-
 [class*="col-"]{
 	float:left;
 	/*border:1px solid black;*/
@@ -27,7 +26,6 @@ GLOBAL
 /*=============================================
 CABEZOTE
 =============================================*/
-
 header #logotipo{
 	text-align: center;
 	padding:15px;
@@ -56,11 +54,9 @@ BARRA DEL NAVEGADOR
 	/*background-color: #e9e9e9;*/
 	font-family: sans-serif;
 	border-radius: 12px;
-
 }
-  
   /* Style the links inside the navigation bar */
-  .topnav a {
+.topnav a {
 	float: left;
 	display: block;
 	color: #3F7181;
@@ -69,22 +65,21 @@ BARRA DEL NAVEGADOR
 	text-decoration: none;
 	font-size: 1.1vw;
 	border-radius: 12px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
+} 
+/* Change the color of links on hover */
+.topnav a:hover {
 	background-color: #ddd;
 	color: black;
-  }
+}
   
   /* Style the "active" element to highlight the current page */
-  .topnav a.active {
+.topnav a.active {
 	background-color: #3F7181;
 	color: white;
-  }
+}
   
   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 	.topnav a, .topnav{
 	  float: none;
 	  display: block;
@@ -93,7 +88,7 @@ BARRA DEL NAVEGADOR
 	  margin: 0%;
 	  padding: 18px;
 	}
-  }
+}
 
   /*=============================================
 IMAGENES
@@ -123,6 +118,7 @@ IMAGENES
   	top: 50px;
 	left: 0px;
 	right: 40px;
+	z-index: -10;
 }
 #slide5{
 	position: absolute;
@@ -431,12 +427,12 @@ TEXTO
 }
 #textoanti2{
 	position:absolute;
-	top:593%;
+	top:3400px;
 	left:3%;
 	width: 60%;
 	font-size: 1.8vw;
 	font-family: "Boogaloo", sans-serif;
-	color: white;
+	color: black;
 	font-weight: none;
 }
 #textoanti3{
@@ -1021,6 +1017,9 @@ PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o ve
 		font-size: 5vw;
 		text-align: justify;
 		z-index:-1;
+	}
+	#vermas a{
+		font-size: 1vw;
 	}
 	
 	.topnav{
