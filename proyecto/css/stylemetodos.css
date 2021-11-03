@@ -1,0 +1,708 @@
+/*=============================================
+GLOBAL
+=============================================*/
+
+*{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	text-decoration: none;
+	/*font-family: sans-serif;*/
+	box-sizing: border-box;
+}
+.row{
+	position:relative;
+	margin:auto;
+	width:100%;
+	height: auto;
+	clear:both;
+	display:table;
+}
+[class*="col-"]{
+	float:left;
+	/*border:1px solid black;*/
+	padding:10px;
+}
+/*=============================================
+CABEZOTE
+=============================================*/
+header #logotipo{
+	text-align: center;
+	padding:15px;
+}
+body {
+	font-family: "Boogaloo", sans-serif;
+}
+header #btnMovil span{
+	width:40px;
+	height:40px;
+	text-align: center;
+	padding:10px 0;
+	margin:10px;
+	background:silver;
+	cursor: pointer;
+}
+/*=============================================
+BARRA DEL NAVEGADOR
+=============================================*/
+/* Add a black background color to the top navigation bar */
+.topnav {
+	margin: 24px;
+	overflow: hidden;
+	background-color: rgb(235, 235, 235);
+	font-weight: bold;
+	/*background-color: #e9e9e9;*/
+	font-family: sans-serif;
+	border-radius: 12px;
+}
+  /* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	display: block;
+	color: #3F7181;
+	text-align: center;
+	padding: 12px 12px;
+	text-decoration: none;
+	font-size: 1.1vw;
+	border-radius: 12px;
+} 
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+  
+  /* Style the "active" element to highlight the current page */
+.topnav a.active {
+	background-color: #3F7181;
+	color: white;
+}
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+	.topnav a, .topnav{
+	  float: none;
+	  display: block;
+	  text-align: left;
+	  width: 100%;
+	  margin: 0%;
+	  padding: 18px;
+	}
+}
+
+/*=============================================
+IMAGENES
+=============================================*/
+#slide4{
+	position: absolute;
+  	top: 50px;
+	left: 0px;
+	right: 40px;
+	z-index: -10;
+}
+#slide5{
+	position: absolute;
+  	top: 700px;
+  	left:-0.5%;
+  	
+}
+#slide6{
+	position: absolute;
+  	top: 1560px;
+	width: 90%;
+	left:5%;
+}
+#slide7{
+	position: absolute;
+  	top: 2600px;
+	left:0%;
+}
+
+#slide22{
+	position: absolute;
+  	top: 3360px;
+	left: 0%;
+}
+#slide23{
+	position: absolute;
+  	top: 5090px;
+	left: 0%;
+}
+#slide24{
+	position: absolute;
+	top: 5500px;
+  	left: 10%;
+	width:80%
+}
+#slide25{
+	position: absolute;
+	top: 6400px;
+  	left: 10%;
+	width:80%
+}
+#slide26{
+    position: absolute;
+	top: 6900px;
+	width:100%
+}
+/*=============================================
+TEXTO
+=============================================*/
+#vermas4 a{
+	position:absolute;
+	top: 2500px;
+	left: 45%;
+	padding-top: 10px;
+	width:11%;
+	height: 9%;
+	background:black;
+	border-radius:10px;
+	text-align: center;
+	font-size: 2vw;
+	color:white;
+	cursor:pointer;
+	border: 2px solid black;
+	text-decoration: none;
+}
+#textometodos{
+	position:absolute;
+	top:760px;
+	left:20%;
+
+	width:65%;
+	font-size: 2vw;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+	font-weight:  lighter;
+}
+#textometodos2{
+	position:absolute;
+	top:1000px;
+	width:90%;
+	left:5%;
+
+	font-size: 2vw;
+	font-family: "Boogaloo", sans-serif;
+	color: black;
+	font-weight: none;
+}
+#textometodos3{
+	position:absolute;
+	top:3200px;
+	width:90%;
+	left:5%;
+
+	font-size: 4.5vw;
+	font-family: "Boogaloo", sans-serif;
+	color: black;
+	font-weight: none;
+}
+#textoanti{
+	position:absolute;
+	top:3400px;
+	left:33%;
+	width: 60%;
+	font-size: 1.8vw;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+	font-weight: none;
+}
+#textoanti2{
+	position:absolute;
+	top:3750px;
+	left:3%;
+	width: 60%;
+	font-size: 1.8vw;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+	font-weight: none;
+}
+#textoanti3{
+	position:absolute;
+	top:4030px;
+	left:33%;
+	width: 60%;
+	font-size: 1.8vw;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+	font-weight: none;
+}
+#textoanti4{
+	position:absolute;
+	top:4400px;
+	left:3%;
+	width: 59.5%;
+	font-size: 1.8vw;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+	font-weight: none;
+}
+#textoanti5{
+	position:absolute;
+	top:4750px;
+	left:33%;
+	width: 60%;
+	font-size: 1.8vw;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+	font-weight: none;
+}
+#textoanti6{
+	position:absolute;
+	top: 5100px;
+	left:14%;
+	width: 75%;
+	font-size: 3.6vw;
+	font-family: "Boogaloo", sans-serif;
+	color: black;
+	font-weight: none;
+}#textoanti7{
+	position:absolute;
+	top:5345px;
+	left:15%;
+	width: 75%;
+	font-size: 3.6vw;
+	font-family: "Boogaloo", sans-serif;
+	color: black;
+	font-weight: none;
+}
+#textoanti8{
+	position:absolute;
+	top:5410px;
+	left:15%;
+	width: 75%;
+	font-size: 2vw;
+	font-family: "Boogaloo", sans-serif;
+	color: black;
+	font-weight: none;
+}
+#textoanti9{
+	position:absolute;
+	top:6310px;
+	left:15%;
+	width: 75%;
+	font-size: 3.6vw;
+	font-family: "Boogaloo", sans-serif;
+	color: black;
+	font-weight: none;
+}
+#textoanti10{
+	position:absolute;
+	top:5840px;
+	left:12%;
+	width: 30%;
+	font-size: 1.8vw;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+	font-weight: none;
+}
+#textoanti11{
+	position:absolute;
+	top:5840px;
+	left:58%;
+	width: 30%;
+	font-size: 1.8vw;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+	font-weight: none;
+}
+#preguntas{
+    position:absolute;
+	top:7080px;
+    left:40%;
+	font-size: 5vw;
+	font-family: "Boogaloo", sans-serif;
+	color: black;
+	font-weight: none;
+    z-index: 1;
+}
+#frecuentes{
+    position:absolute;
+	top:7150px;
+    left:39.5%;
+	font-size: 5vw;
+	font-family: "Boogaloo", sans-serif;
+	color: black;
+	font-weight: none;
+    z-index: 1;
+}
+#vermas5 a{
+	position:absolute;
+	top: 7240px;
+	left: 43%;
+	padding-top: 10px;
+	width:11%;
+	height: 9%;
+	background:#FFAF36;
+	border-radius:10px;
+	text-align: center;
+	font-size: 2vw;
+	color:black;
+	cursor:pointer;
+	text-decoration: none;
+}
+
+
+/*=============================================
+PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc 1200 x 640
+=============================================*/
+
+@media(min-width:1200px){
+
+	.col-lg-12{width:100%;}
+	.col-lg-11{width:91.66666667%;}
+	.col-lg-10{width:83.33333333%;}
+	.col-lg-9{width:75%;}
+	.col-lg-8{width:66.66666667%;}
+	.col-lg-7{width:58.33333333%;}
+	.col-lg-6{width:50%;}
+	.col-lg-5{width:41.66666667%;}
+	.col-lg-4{width: 33.33333333%;}
+	.col-lg-3{width: 25%;}
+	.col-lg-2 {width: 16.66666667%;}
+	.col-lg-1 {width: 8.33333333%;}
+	.col-lg-0 {display:none;}
+	.topnav a {
+        font-size: 1.2vw;
+    } 
+
+}
+
+/*=============================================
+PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 1024px
+1024 x 640
+=============================================*/
+@media(max-width:1199px) and (min-width:992px){
+	.col-md-12{width:100%;}
+	.col-md-11{width:91.66666667%;}
+	.col-md-10{width:83.33333333%;}
+	.col-md-9{width:75%;}
+	.col-md-8{width:66.66666667%;}
+	.col-md-7{width:58.33333333%;}
+	.col-md-6{width:50%;}
+	.col-md-5{width:41.66666667%;}
+	.col-md-4{width: 33.33333333%;}
+	.col-md-3{width: 25%;}
+	.col-md-2{width: 16.66666667%;}
+	.col-md-1{width: 8.33333333%;}
+	.col-md-0 {display:none;}
+	.topnav a {
+        font-size: 1.2vw;
+    } 
+	#slide6{
+		top: 1400px;
+	}
+	#vermas4 a{
+		top: 2100px;
+	}
+	#slide7{
+		top: 2200px;
+	}
+	#textometodos3{
+		top:2700px;
+	}
+	#slide22{
+		top: 2850px;
+	}
+	#textoanti{
+		top: 2880px;
+	}
+	#textoanti2{
+		top: 3145px;
+	}
+	#textoanti3{
+		top: 3360px;
+	}
+	#textoanti4{
+		top: 3650px;
+	}
+	#textoanti5{
+		top: 3900px;
+	}
+	#slide23{
+		top: 4200px;
+	}
+	#textoanti6{
+		top: 4210px;
+	}
+	#textoanti7{
+		top: 4400px;
+	}
+	#textoanti8{
+		top: 4450px;
+	}
+	#slide24{
+		top: 4550px;
+	}
+	#textoanti10{
+		top: 4780px;
+	}
+	#textoanti11{
+		top: 4780px;
+	}
+	#textoanti9{
+		top: 5200px;
+	}
+	#slide25{
+		top: 5300px;
+	}
+	#slide26{
+		top: 5700px;
+	}
+	#preguntas{
+		top: 5840px;
+	}
+	#frecuentes{
+		top: 5890px;
+	}
+	#vermas5 a{
+		top: 6000px;
+		height: 50px;
+	}
+}
+
+/*=============================================
+PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
+960 x 540
+=============================================*/
+@media(max-width:991px) and (min-width:768px){
+	.col-sm-12{width:100%;}
+	.col-sm-11{width:91.66666667%;}
+	.col-sm-10{width:83.33333333%;}
+	.col-sm-9{width:75%;}
+	.col-sm-8{width:66.66666667%;}
+	.col-sm-7{width:58.33333333%;}
+	.col-sm-6{width:50%;}
+	.col-sm-5{width:41.66666667%;}
+	.col-sm-4{width: 33.33333333%;}
+	.col-sm-3{width: 25%;}
+	.col-sm-2{width: 16.66666667%;}
+	.col-sm-1{width: 8.33333333%;}
+	.col-sm-0 {display:none;}
+
+    .topnav a {
+        font-size: 1.4vw;
+    } 
+	#textometodos{
+		top: 520px;
+		font-size: 2.6vw;
+		width: 80%;
+		left:12%;
+	}
+	#textometodos2{
+		top: 720px;
+	}
+	#slide5{
+		top: 500px;
+	}
+	#slide6{
+		top: 1050px;
+	}
+	#vermas4 a{
+		top: 1550px;
+		height: 45px;
+	}
+	#slide7{
+		top: 1680px;
+	}
+	#textometodos3{
+		top:2090px;
+	}
+	#slide22{
+		top: 2180px;
+	}
+	#textoanti{
+		top: 2200px;
+	}
+	#textoanti2{
+		top: 2400px;
+	}
+	#textoanti3{
+		top: 2565px;
+	}
+	#textoanti4{
+		top: 2780px;
+	}
+	#textoanti5{
+		top: 2975px;
+	}
+	#slide23{
+		top: 3200px;
+	}
+	#textoanti6{
+		top: 3208px;
+	}
+	#textoanti7{
+		top: 3400px;
+		font-size: 5vw;
+	}
+	#textoanti8{
+		top: 3450px;
+		font-size: 3vw;
+	}
+	#slide24{
+		top: 3550px;
+	}
+	#textoanti10{
+		top: 3700px;
+	}
+	#textoanti11{
+		top: 3700px;
+	}
+	#textoanti9{
+		top: 4000px;
+		font-size: 5vw;
+	}
+	#slide25{
+		top: 4100px;
+	}
+	#slide26{
+		top: 4400px;
+	}
+	#preguntas{
+		top: 4500px;
+	}
+	#frecuentes{
+		top: 4550px;
+	}
+	#vermas5 a{
+		top: 4600px;
+		height: 50px;
+		font-size: 3vw;
+	}
+}
+
+/*=============================================
+PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o vertical 320px
+320x569
+=============================================*/
+
+@media(max-width:767px){
+
+	.col-xs-12{width:100%;}
+	.col-xs-11{width:91.66666667%;}
+	.col-xs-10{width:83.33333333%;}
+	.col-xs-9{width:75%;}
+	.col-xs-8{width:66.66666667%;}
+	.col-xs-7{width:58.33333333%;}
+	.col-xs-6{width:50%;}
+	.col-xs-5{width:41.66666667%;}
+	.col-xs-4{width: 33.33333333%;}
+	.col-xs-3{width: 25%;}
+	.col-xs-2{width: 16.66666667%;}
+	.col-xs-1{width: 8.33333333%;}
+	.col-xs-0 {display:none;}
+
+    .topnav a {
+        font-size: 5vw;
+    } 
+	#slide4{
+		top: 120px;
+	}
+	#textometodos{
+		top: 300px;
+		font-size: 2.6vw;
+		width: 80%;
+		left:12%;
+		z-index: -1;
+	}
+	#slide5{
+		top: 290px;
+		z-index: -1;
+	}
+	#textometodos2{
+		top: 380px;
+		font-size: 3vw;
+		z-index: -1;
+	}
+	#slide6{
+		top: 580px;
+	}
+	#vermas4 a{
+		top: 790px;
+		height: 35px;
+		font-size: 4vw;
+		width: 50px;
+		left: 43%;
+	}
+	#slide7{
+		top: 890px;
+	}
+	#textometodos3{
+		top:1060px;
+		font-size: 6vw;
+	}
+	#slide22{
+		top: 1100px;
+	}
+	#textoanti{
+		top: 1105px;
+		font-size:2vw;
+	}
+	#textoanti2{
+		top: 1190px;
+		font-size:2vw;
+	}
+	#textoanti3{
+		top: 1258px;
+		font-size:1.9vw;
+	}
+	#textoanti4{
+		top: 1348px;
+		font-size:2vw;
+	}
+	#textoanti5{
+		top: 1425px;
+		font-size:2vw;
+	}
+	#slide23{
+		top: 1530px;
+	}
+	#textoanti6{
+		top: 1532px;
+	}
+	#textoanti7{
+		top: 1600px;
+		font-size: 6vw;
+	}
+	#textoanti8{
+		top: 1650px;
+		font-size: 4vw;
+	}
+	#slide24{
+		top: 1680px;
+	}
+	#textoanti10{
+		top: 1740px;
+	}
+	#textoanti11{
+		top: 1740px;
+	}
+	#textoanti9{
+		top: 1880px;
+		font-size: 6vw;
+	}
+	#slide25{
+		top: 1920px;
+	}
+	#slide26{
+		top: 2060px;
+	}
+	#preguntas{
+		top: 2100px;
+	}
+	#frecuentes{
+		top: 2120px;
+	}
+	#vermas5 a{
+		top: 2145px;
+		height: 30px;
+		font-size: 4vw;
+		width: 40px;
+	}
+    
+	
+
+}
+
+
