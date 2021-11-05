@@ -89,48 +89,126 @@ BARRA DEL NAVEGADOR
 	  padding: 18px;
 	}
 }
+
+/*=============================================
+IMAGENES
+=============================================*/
+#slide13{
+	position: absolute;
+  	top: 110px;
+	z-index: -3;
+}
+#slide14{
+	position: absolute;
+  	top: 850px;
+	z-index: 1;
+}
+#slide17{
+	position: absolute;
+  	top: 1800px;
+  	width: 100%;
+	z-index: -3;
+}
+#slide18{
+	position: absolute;
+  	top: 2730px;
+	right:2px;
+}
+#slide19{
+	position: absolute;
+  	top: 3400px;
+  	right:2px;
+}
 /*=============================================
 TEXTO
 =============================================*/
-#slide{
-	position: absolute;
-  	top: 100px;
-	left: 0px;
-	z-index: -3;
-}
-#textoinicio{
+#textovideo{
 	position:absolute;
-	top:130px;
-	left:12%;
-	font-size: 5vw;
+	top:1100px;
+	font-size: 1.8vw;
 	font-family: "Boogaloo", sans-serif;
-	color: #0E7DBF;
 }
-#textoinicio2{
+#jugar a{
 	position:absolute;
-	top:190px;
-	left:12%;
-	font-size: 4vw;
+	width: 464px;
+	height:110;
+	top:2060px;
+	left: 48%;
+	background:#FF5C00;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 85px;
 	font-family: "Boogaloo", sans-serif;
-	color: #AE4FD9;
+	border-radius: 67px;
+	text-decoration-color: none;
+	
 }
-#textoinicio3{
+#jugar2 a{
 	position:absolute;
-	top:135px;
-	left:7%;
-	font-size: 8vw;
+	width: 464px;
+	height:110;
+	top:3780px;
+	left: 12%;
+	background:#FF5C00;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 85px;
 	font-family: "Boogaloo", sans-serif;
-	color: #3F68F8;
+	border-radius: 67px;
+	text-decoration-color: none;
+	
 }
-#textoinicio4{
+#pdf a{
+	z-index: 1;
 	position:absolute;
-	top:260px;
-	left:5%;
-	font-size: 2.8vw;
+	width: 240px;
+	height:60px;
+	top:3050px;
+	left: 25%;
+	background:#9bd6f6;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 3vw;
 	font-family: "Boogaloo", sans-serif;
-	color: black;
-	font-weight: none;
+	border-radius: 67px;
+	text-decoration-color: none;
+	
+}#pdf2 a{
+	z-index: 1;
+	position:absolute;
+	width: 240px;
+	height:60px;
+	top:3050px;
+	left: 57%;
+	background:#9bd6f6;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 3vw;
+	font-family: "Boogaloo", sans-serif;
+	border-radius: 67px;
+	text-decoration-color: none;
+	
 }
+#textopdf{
+	position:absolute;
+	top:3020px;
+	left:19%;
+	width:30%;
+	font-size: 1.5vw;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+}
+#textopdf2{
+	position:absolute;
+	top:2990px;
+	left:53%;
+	width:25%;
+	font-size: 1.5vw;
+	font-family: "Boogaloo", sans-serif;
+	color: white;
+
+}
+
 /*=============================================
 PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc 1200 x 640
 =============================================*/
@@ -150,14 +228,16 @@ PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc 1200 x 6
 	.col-lg-2 {width: 16.66666667%;}
 	.col-lg-1 {width: 8.33333333%;}
 	.col-lg-0 {display:none;}
-
+    
 }
 
 /*=============================================
 PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 1024px
 1024 x 640
 =============================================*/
+
 @media(max-width:1199px) and (min-width:992px){
+
 	.col-md-12{width:100%;}
 	.col-md-11{width:91.66666667%;}
 	.col-md-10{width:83.33333333%;}
@@ -171,32 +251,44 @@ PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 10
 	.col-md-2{width: 16.66666667%;}
 	.col-md-1{width: 8.33333333%;}
 	.col-md-0 {display:none;}
+    #jugar a{  
+        top:2020px;
+        font-size: 8vw;
+        width: 40%;
+    }
+    #textopdf{
+        top:2960px;
+        left:19%;
+    }
+    #textopdf2{
+        top:2940px;
+        left:53%;
+    }
+    #pdf a{
+        height:40px;
+        top:2980px;
+        left:23%;    
+    }
+    #pdf2 a{
+        height:40px;
+        top:2980px;
+        left:53.5%;    
+    }
+    #jugar2 a{
+        font-size: 8vw;
+        width: 40%;    
+        top:3675px; 
+    }
 	
-	#textoinicio{
-		top: 120px;
-	}
-	#textoinicio2{
-		top: 170px;
-	}
-	#textoinicio3{
-		top: 120px;
-		left: 6%;
-	}
-	#textoinicio4{
-		top: 230px;
-		width: 33%;
-	}
-	#slide3{
-		top: 630px
-	}
-
 }
 
 /*=============================================
 PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
 960 x 540
 =============================================*/
+
 @media(max-width:991px) and (min-width:768px){
+
 	.col-sm-12{width:100%;}
 	.col-sm-11{width:91.66666667%;}
 	.col-sm-10{width:83.33333333%;}
@@ -210,13 +302,66 @@ PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
 	.col-sm-2{width: 16.66666667%;}
 	.col-sm-1{width: 8.33333333%;}
 	.col-sm-0 {display:none;}
-
-    #textoinicio4{
-        top:230px;
+	.topnav a {	
+		font-size: 1.4vw;
+	}
+    #slide13{
+        width:103%;
     }
-    .topnav a {
-        font-size: 1.4vw;
-    } 
+    #slide14{
+        top: 500px;
+        left:3%;
+    }
+    #textovideo{
+        top: 660px;
+        left:3%;
+    }
+    #slide17{
+        top: 1000px;
+        width:103%;
+    }
+	#jugar a{  
+        top:1150px;
+        font-size: 8vw;
+        width: 40%;
+        left:53%;
+    }
+    #slide18{
+        top: 1660px;
+        left:0%;
+        width:103%;
+    }
+    #textopdf{
+        top: 1840px;
+        left:21%;
+    }
+    #textopdf2{
+        top: 1820px;
+        left:55%;
+    }
+    #pdf a{
+        height:30px;
+        top: 1830px;
+        left:22%;    
+        width:210px;
+    }
+    #pdf2 a{
+        height:30px;
+        top: 1830px;
+        left:54%; 
+        width:210px;   
+    }
+    #slide19{
+        top: 2280px;
+        width:103%;
+        left:0%;
+    }
+    #jugar2 a{
+        font-size: 8vw;
+        width: 40%;    
+        top:2490px; 
+    }
+
 }
 
 /*=============================================
@@ -239,42 +384,85 @@ PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o ve
 	.col-xs-2{width: 16.66666667%;}
 	.col-xs-1{width: 8.33333333%;}
 	.col-xs-0 {display:none;}
-	#slide{
-		top:68px;
-		left:-10%;
-		width:120%;
-	}
 
-    .topnav a {
-        font-size: 5vw;
-    } 
-    #textoinicio{
-		top:340px;
-		z-index:-1;
-		font-size: 8vw;
-		left: 20%;
-	}
-	#textoinicio2{
-		top:370px;
-		font-size: 8vw;
-		left: 20%;
-		z-index:-1;
-	}
-	#textoinicio3{
-		top:340px;
-		font-size: 14vw;
-		left: 10%;
-		z-index:-1;
-	}
-	#textoinicio4{
-		top:410px;
-		left: 8%;
+	.topnav a {
 		font-size: 5vw;
-		text-align: justify;
-		z-index:-1;
 	}
-	
-
-}
-
-
+	.topnav input[type=text] {
+		font-size: 4vw;
+	}
+	/*=============================================
+	RECURSOS
+	=============================================*/
+	#slide13{
+		top:110px;
+	}
+	#slide14{
+		top:53%;
+		z-index:-1;
+        font-size: 3vw;
+	}
+	#textovideo{
+		top:400px;
+		width: 80%;
+		font-size:12px;
+		left: 10%;
+		z-index: -1;
+	}
+	#slide17{
+		top:555px;
+	}
+	#jugar a{
+		width: 120px;
+		height:30;
+		top:500px;
+		left: 48%;
+		font-size: 30px;
+		font-family: "Boogaloo", sans-serif;
+		border-radius: 67px;
+		text-decoration-color: none;
+	}
+	#jugar2 a{
+		width: 120px;
+		height:30;
+		top:980px;
+		left: 15%;
+		font-size: 30px;
+		font-family: "Boogaloo", sans-serif;
+		border-radius: 67px;
+		text-decoration-color: none;
+	}
+	#slide18{
+		top:140%;
+	}
+	#pdf a{
+		width: 70px;
+		height:20px;
+		top:745px;
+		left: 22.5%;
+		font-size: 15px;
+		
+	}#pdf2 a{
+		width: 70px;
+		height:20px;
+		top:745px;
+		left: 54%;
+		font-size: 15px;
+	}
+	#textopdf{
+		top:151%;
+		left:19%;
+		width:30%;
+		font-size: 5px;
+	}
+	#textopdf2{
+		position:absolute;
+		top:150%;
+		left:53%;
+		width:25%;
+		font-size: 5px;
+	}
+	#slide19{
+		top: 180%;
+	}
+}	

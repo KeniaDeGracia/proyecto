@@ -90,47 +90,91 @@ BARRA DEL NAVEGADOR
 	}
 }
 /*=============================================
-TEXTO
+FORMULARIO
 =============================================*/
-#slide{
+#formulario {
+	position: absolute;
+	margin:auto;
+	top:30%;
+	left:55%;
+	width:40%;
+	height:auto;
+	padding: 2%;
+	background:#ddd;
+}
+
+#formulario input, #formulario label, #formulario textarea{
+	display:block;
+	position:relative;
+	width:100%;
+	padding:10px;
+	font-size: 1.5vw;
+}
+#formulario label span.obligatorio{
+	opacity: 0;
+	color:#777;
+}
+/*=============================================
+IMAGENES
+=============================================*/
+#slide20{
 	position: absolute;
   	top: 100px;
-	left: 0px;
-	z-index: -3;
+	z-index: -2;
 }
-#textoinicio{
-	position:absolute;
-	top:130px;
-	left:12%;
+#slide21{
+	position: absolute;
+	top: 1290px;
+
+}
+#aplafa{
+	position: absolute;
+	top: 1700px;
+  	left:3%;
+}
+#probidsida{
+	position: absolute;
+  	top: 1700px;
+  	left:40%;
+}
+#who{
+	position: absolute;
+    top: 1700px;
+  	left:65%;
+}
+#w{
+	position: absolute;
+  	top: 2300px;
+	left: 15%;
+	z-index: 5;
+}
+#f{
+	position: absolute;
+	top: 2300px;
+	left:31%;
+	z-index: 5;
+}
+#i{
+	position: absolute;
+	top:2300px;
+	left:52%;
+	z-index: 5;
+}
+#t{
+	position: absolute;
+	top:2300px;
+	left:73%;
+	z-index: 5;
+}
+#correo{
+	position: absolute;
+	align-items: center;
+	top: 2680px;
+	left: 31%;
+	z-index: 1;
 	font-size: 5vw;
-	font-family: "Boogaloo", sans-serif;
-	color: #0E7DBF;
 }
-#textoinicio2{
-	position:absolute;
-	top:190px;
-	left:12%;
-	font-size: 4vw;
-	font-family: "Boogaloo", sans-serif;
-	color: #AE4FD9;
-}
-#textoinicio3{
-	position:absolute;
-	top:135px;
-	left:7%;
-	font-size: 8vw;
-	font-family: "Boogaloo", sans-serif;
-	color: #3F68F8;
-}
-#textoinicio4{
-	position:absolute;
-	top:260px;
-	left:5%;
-	font-size: 2.8vw;
-	font-family: "Boogaloo", sans-serif;
-	color: black;
-	font-weight: none;
-}
+
 /*=============================================
 PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc 1200 x 640
 =============================================*/
@@ -171,25 +215,34 @@ PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 10
 	.col-md-2{width: 16.66666667%;}
 	.col-md-1{width: 8.33333333%;}
 	.col-md-0 {display:none;}
-	
-	#textoinicio{
-		top: 120px;
-	}
-	#textoinicio2{
-		top: 170px;
-	}
-	#textoinicio3{
-		top: 120px;
-		left: 6%;
-	}
-	#textoinicio4{
-		top: 230px;
-		width: 33%;
-	}
-	#slide3{
-		top: 630px
-	}
-
+    #slide21{
+        top: 990px;
+    }
+    #aplafa{
+        top: 1350px;
+    }
+    #probidsida{
+        top: 1350px;
+    }
+    #who{
+        top: 1350px;
+    }
+    #w{
+        top: 1750px;
+    }
+    #f{
+        top: 1750px;
+    }
+    #i{
+        top: 1750px;
+    }
+    #t{
+        top: 1750px;
+        width: 36%;
+    }
+    #correo{
+        top: 2100px;
+    }
 }
 
 /*=============================================
@@ -217,6 +270,47 @@ PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
     .topnav a {
         font-size: 1.4vw;
     } 
+    #formulario{
+        top:20%;
+    }
+    #formulario input, #formulario label, #formulario textarea{
+
+        font-size: 1.9vw;
+    }
+    #slide21{
+        top:730px
+    }
+    #aplafa{
+        top: 1050px;
+    }
+    #probidsida{
+        top: 1020px;
+    }
+    #who{
+        top: 1030px;
+    }
+    #w{
+        top: 1320px;
+        width:14%;
+    }
+    #f{
+        top: 1320px;
+        width:20%;
+    }
+    #i{
+        top: 1320px;
+        width:17.8%;
+    }
+    #t{
+        top: 1320px;
+        width: 39%;
+    }
+    #correo{
+        top: 1600px;
+        font-size: 9vw;
+        left:20%;
+    }
+    
 }
 
 /*=============================================
@@ -239,42 +333,54 @@ PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o ve
 	.col-xs-2{width: 16.66666667%;}
 	.col-xs-1{width: 8.33333333%;}
 	.col-xs-0 {display:none;}
-	#slide{
-		top:68px;
-		left:-10%;
-		width:120%;
-	}
 
     .topnav a {
         font-size: 5vw;
     } 
-    #textoinicio{
-		top:340px;
-		z-index:-1;
-		font-size: 8vw;
-		left: 20%;
-	}
-	#textoinicio2{
-		top:370px;
-		font-size: 8vw;
-		left: 20%;
-		z-index:-1;
-	}
-	#textoinicio3{
-		top:340px;
-		font-size: 14vw;
-		left: 10%;
-		z-index:-1;
-	}
-	#textoinicio4{
-		top:410px;
-		left: 8%;
-		font-size: 5vw;
-		text-align: justify;
-		z-index:-1;
-	}
-	
+    #slide20{
+        top: 110px;
+    }
+    #formulario{
+        top: 140px;
+        left:35px;
+        width:250px;
+        z-index: -2;
+    }
+	#formulario input, #formulario label, #formulario textarea{
+        font-size: 4vw;
+    }
+    #slide21{
+        top:580px
+    }
+    #aplafa{
+        top: 820px;
+    }
+    #probidsida{
+        top: 810px;
+    }
+    #who{
+        top: 820px;
+    }
+    #w{
+        top: 935px;
+        width:14%;
+    }
+    #f{
+        top: 935px;
+        width:20%;
+    }
+    #i{
+        top: 935px;
+        width:17.8%;
+    }
+    #t{
+        top: 935px;
+        width: 39%;
+    }
+    #correo{
+        top: 1050px;
+        font-size: 9vw;
+        left:20%;
+    }
 
 }
-
-

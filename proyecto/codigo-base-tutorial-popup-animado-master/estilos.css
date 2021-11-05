@@ -210,9 +210,12 @@
 	.col-xs-0 {display:none;}
 
 	.contenedor article .btn-abrir-popup {
-        top: 180px; 
+        top: 200px; 
         font-size: 5vw;
 		z-index: -1;
+		width: 19%;
+		left: 10%;
+		height:5%;
     }
 
 	.popup {
